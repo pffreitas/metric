@@ -17,7 +17,7 @@ const paginated_fetch = async (url: string, startAt = 0, prevResponse: any[] = [
     {
       method: 'GET',
       headers: {
-        'Authorization': `Basic ${btoa('paulo.freitas@ab-inbev.com:ONHYfzUseBOFs4IOGni46744')}`,
+        'Authorization': `Basic ${btoa('whooops')}`,
         'Accept': 'application/json'
       }
     })
